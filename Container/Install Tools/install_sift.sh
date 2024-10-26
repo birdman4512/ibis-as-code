@@ -25,5 +25,5 @@ dpkg -i "cast-v${CAST_VERSION}-linux-amd64.deb"
 cast install --mode=server --user=coder teamdfir/sift-saltstack
 
 #Clean Up
-rm cast-v${CAST_VERSION}-linux-amd64.deb
+rm "cast-v${CAST_VERSION}-linux-amd64.deb"
 rm -rf /var/cache/salt/*
