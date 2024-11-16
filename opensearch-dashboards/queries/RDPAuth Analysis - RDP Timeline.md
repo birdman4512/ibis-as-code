@@ -13,19 +13,12 @@ Should be applied to `logstash-vr-rdpauth*` for offline collection or `artifact_
 The following colums in Discover can be helpful
 
 * Time
-
 * EventID 
-
 * Description
-
 * Computer
-
 * SourceIP
-
 * UserName
-
 * LogonType
-
 * Message
 
 ## Query
@@ -37,7 +30,6 @@ The following colums in Discover can be helpful
 *Replace*
 
 * [USER] with the target user account (Can use wildcards) - This can be removed if desired, ensure you remove the leading and
-
 * [DEST] with the destination computer (Can use wildcards) - This can be removed if desired, ensure you remove the leading and
 
 ## How to read
@@ -81,3 +73,7 @@ From here, the order will split based on the action
 * Event ID: 39 - With the same session ID as the Event ID 24 above
 
 * See Logon series
+
+## References / Further Reading
+
+* 
