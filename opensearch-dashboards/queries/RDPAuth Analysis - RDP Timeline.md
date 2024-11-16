@@ -36,7 +36,7 @@ The following colums in Discover can be helpful
 
 The Event should appear in a the following order
 
-### logon
+### Logon
 
 * Event ID: 1149 - Setup of RDP Session
 
