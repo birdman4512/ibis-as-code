@@ -6,7 +6,7 @@ Produce an easy to read timeline of RDP activity that can be filtered on either 
 
 ## Index
 
-Should be applied to `logstash-vr-rdpauth*` or `artifact_windows_eventlogs_rdpauth*` for VR Streaming
+Should be applied to `logstash-vr-rdpauth*` for offline collection or `artifact_windows_eventlogs_rdpauth*` for VR Streaming
 
 ## View
 
