@@ -10,12 +10,10 @@ Produce an easy to read timeline of RDP activity that can be filtered on either 
 (not EventID: (4624 or 4634 or 4625 or 4647) or EventID: (4624 or 4634 or 4625 or 4647) and LogonType: 10) and UserName: [USER] and Computer: [DEST]
 ```
 
-*Replace*
+**Replace**
 
-* [USER] with the target user account (Can use wildcards) - This can be removed if desired, ensure you remove the leading and
-* [DEST] with the destination computer (Can use wildcards) - This can be removed if desired, ensure you remove the leading and
-
-or remove both for all users (This makes it more difficult to read)
+* `[USER]` with the target user account (Can use wildcards) - This can be removed if desired, ensure you remove the leading and
+* `[DEST]` with the destination computer (Can use wildcards) - This can be removed if desired, ensure you remove the leading and
 
 ## Index
 
